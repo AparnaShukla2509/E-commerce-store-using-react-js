@@ -1,0 +1,29 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 10px;
+}
+
+.product {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin: 10px;
+}
+
+.grid .product {
+	display: inline-block;
+	width: 30%;
+}
+
+.list .product {
+	display: block;
+	width: 100%;
+}
